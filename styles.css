@@ -1,0 +1,88 @@
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px gray;
+  margin: 20px;
+}
+
+.indexlink {
+  font-size: 2em;
+  margin: 20px 20px 20px 0;
+}
+
+.dogtype {
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 4em;
+}
+
+body {
+  background-color: rgba(63,127,191,0.3);
+}
+
+button {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px gray;
+  background-color: #FFD9B3;
+}
+
+form {
+  border-style: groove;
+  border-width: medium;
+  padding: 10px;
+  background-color: #e6eeff;
+  margin-top: 20px;
+}
+
+input {
+  box-shadow: 2px 2px 5px gray;
+}
+
+.dropbtn {
+    background-color: #da5e58;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #a72b25;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+.show {
+  display:block;
+}
