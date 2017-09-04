@@ -2,6 +2,7 @@
 <html>
 
   <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <title> Contact Chelsea Bergman </title>
@@ -22,13 +23,13 @@
 
     <form method="GET" action="mailto:chelseacbergman@gmail.com" enctype="text/plain">
       <label for="firstname"> First Name: </label>
-      <input type="text" name="firstname">
+      <input type="text" placeholder="Enter Your First Name" name="firstname">
       <br><br>
       <label for="lastname"> Last Name: </label>
-      <input type="text" name="lastname">
+      <input type="text" placeholder="Enter Your Last Name" name="lastname">
       <br><br>
       <label for="email"> Email Address: </label>
-      <input type="email" name="email">
+      <input type="email" placeholder="Enter Your Email Address" name="email">
       <br><br>
       <button type="submit" value="Send"> Email Me </button>
 
@@ -36,9 +37,17 @@
     <br>
 
     <label for="favoriteDog"> What's Your Favorite Dog Breed? </label>
-    <input type="text" name="favoriteDog">
+    <input type="text" id="favDogTextbox" placeholder="Enter a Dog Breed" name="favoriteDog">
+    <br><br>
+    <label id="modifiedDogText"></label>
     <br><br>
     <button onclick="favoriteDog()" class="dogbtn">Submit</button>
+
+    <footer>
+      <br>
+      <br>
+      <p> Bergman Portfolio -- Facebook Front-End Coding Bootcamp 2017 </p>
+    </footer>
 
     <script src="script.js"></script>
 

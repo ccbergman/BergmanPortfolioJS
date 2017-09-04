@@ -17,5 +17,11 @@ window.onclick = function(clickedId) {
 }
 
 function favoriteDog() {
-  alert("I am an alert box!");
+  var dogText = document.getElementById("favDogTextbox").value;
+  if (dogText.length === 0) {
+    dogText = "You didn't tell me your favorite dog, try again.";
+  } else {
+    dogText = dogText + ", WOOF!";
+  }
+  document.getElementById("modifiedDogText").innerHTML = dogText;
 }
